@@ -3,14 +3,15 @@ applePrice = 10;
 orangePrice = 12;
 kiwiPrice = 15;
 
-prompt ('Do you want fruits?');
-if ('yes') {
-    alert ("Ok, let's start! 😉");
-    //if ('no'){
-        //alert ("Oh, bye 😔.")
-    //}
-}
 
+let answer = prompt ('Do you want fruits?');
+if (answer == 'yes') {
+    alert ("Ok, let's start! 😉");
+} else {
+    alert ("Oh, bye 😔.");
+    break;
+} 
+    
 prompt ("Do you want 🍎?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🍎."));
