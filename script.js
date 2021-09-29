@@ -14,22 +14,24 @@ if ('yes') {
 prompt ("Do you want 🍎?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🍎."));
-    sum = x*10+price;
+    sum = x*10;
     alert (sum);
 }
 
 prompt ("Do you want 🍊?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🍊."));
-    sum = x*12+price;
+    sum = x*12;
     alert (sum);
 }
 
 prompt ("Do you want 🥝?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🥝"));
-    sum = x*15+price;
+    sum = x*15;
     alert (sum);
 }
 
-document.write (price);
+price_all_fruits = x*10+x*12+x*15;
+
+document.write(`<h1>Final price is ${price_all_fruits}</h1>`);
