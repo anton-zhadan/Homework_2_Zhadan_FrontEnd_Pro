@@ -11,25 +11,25 @@ if (answer == 'yes') {
 prompt ("Do you want 🍎?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🍎."));
-    sum = x*10;
-    alert (sum);
+    price = price + x*applePrice;
+    alert (price);
 }    
 
 prompt ("Do you want 🍊?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🍊."));
-    sum = x*12;
-    alert (sum);
+    price = price + x*orangePrice;
+    alert (price);
 }
 
 prompt ("Do you want 🥝?");
 if ('yes') {
     x = parseInt (prompt ("Enter count of 🥝"));
-    sum = x*15;
-    alert (sum);
+    price = price + x*kiwiPrice;
+    alert (price);
 }
 
-price_all_fruits = x*10+x*12+x*15;
+price_all_fruits = x*applePrice+x*orangePrice+x*kiwiPrice;
 document.write(`<h1>Final price is ${price_all_fruits}</h1>`);
 }   
 else  {
