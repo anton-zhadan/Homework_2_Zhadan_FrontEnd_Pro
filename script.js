@@ -29,8 +29,8 @@ if ('yes') {
     alert (price);
 }
 
-price_all_fruits = x*applePrice+x*orangePrice+x*kiwiPrice;
-document.write(`<h1>Final price is ${price_all_fruits}</h1>`);
+price = x*applePrice+x*orangePrice+x*kiwiPrice;
+document.write(`<h1>Final price is ${price}</h1>`);
 }   
 else  {
     alert ("Oh, bye 😔."); 
