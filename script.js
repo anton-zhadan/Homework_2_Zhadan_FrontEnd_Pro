@@ -29,7 +29,6 @@ if ('yes') {
     alert (price);
 }
 
-price = x*applePrice+x*orangePrice+x*kiwiPrice;
 document.write(`<h1>Final price is ${price}</h1>`);
 }   
 else  {
